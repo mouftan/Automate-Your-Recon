@@ -17,6 +17,7 @@ DomainList="$1"
 
 if [ -z "$DomainList" ]; then
   echo "No List?..."
+  echo "Usage: ./Recon.sh DomainList.txt"
   exit 1
 fi
 
