@@ -25,8 +25,8 @@ mkdir nmap
 mkdir done 
 
 while IFS=$' \t\r\n' read -r domain; do 
-  subfinder -d "$domain" > "$domain.1.txt"
-  amass enum -d "$domain" -config ./config.ini > "$domain.2.txt"
+  subfinder -d "$domain" -o "$domain.1.txt"
+  amass enum -d "$domain" -config ./config.ini -o "$domain.2.txt"
   sort "$domain.1.txt" "$domain.2.txt" > "$domain"
   nmap -F -sC -sV -iL "$domain" -oN "$domain.nmap.txt" -v 
   mv "$domain.1.txt" "$domain.2.txt" "$domain" done/
