@@ -1,4 +1,4 @@
-# Requirement
+# Requirement:
 You better have amass, subfinder and nmap installed on your machine.
 
 You can add more tools if you want to.
