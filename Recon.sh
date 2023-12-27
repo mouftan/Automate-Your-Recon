@@ -20,7 +20,7 @@ if [ -z "$DomainList" ]; then
   exit 1
 fi
 
-cp ../config.ini .
+cp path/to/config.ini .
 mkdir nmap
 mkdir done 
 
