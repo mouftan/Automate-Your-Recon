@@ -1,6 +1,6 @@
 # Recon
-You better have amass and subfinder installed on your machine 
-D'ont forget the amass Config file 
+You better have amass and subfinder installed on your machine.
+And D'ont forget the amass Config file.
 
 # Usage:
 
