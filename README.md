@@ -8,7 +8,9 @@ And D'ont forget the amass Config file.
 # Usage:
 
 1 - creat domains wordlist
+
 2 - chmod +x Recon.sh
+
 3 - ./Recon.sh domains.txt
 
 Have Fun ;)
