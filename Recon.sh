@@ -29,6 +29,6 @@ while IFS=$' \t\r\n' read -r domain; do
   amass enum -d "$domain" -config ./config.ini > "$domain.2.txt"
   sort "$domain.1.txt" "$domain.2.txt" > "$domain"
   nmap -sC -sV -iL "$domain" -oN "$domain.nmap.txt" -v 
-  mv "$domain.1.txt" "$domain.2.txt" done/
+  mv "$domain.1.txt" "$domain.2.txt" "$domain" done/
   mv "$domain.nmap.txt" nmap/
 done < "$DomainList"
