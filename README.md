@@ -1,7 +1,7 @@
 # Recon
 You better have amass, subfinder and nmap installed on your machine.
 
-You cann add more tool if you want to
+You can add more tools if you want to.
 
 And D'ont forget the amass Config file.
 
